@@ -35,9 +35,7 @@ class DatabaseManager {
   Future userDataExists(String userid) async {
     try{
       final snapshot = await profileList.doc(userid).get();
-      if (snapshot.exists) {
-        return 1;
-      }
+      return snapshot;
     }
     catch (E) {
       print(E);
