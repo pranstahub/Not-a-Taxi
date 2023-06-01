@@ -5,29 +5,68 @@ A Carpooling Application in Flutter that makes use of a Smart Contract to create
 ### Abstract:
 Carpooling offers an effective solution to mitigate pollutant emissions and alleviate traffic congestion. This paper presents a novel system designed to address the shortcomings of centralized ride-sharing services by leveraging smart contracts. By ensuring data security, confidentiality, and privacy, the proposed system initiates the decentralization process for carpooling systems. Users can assume the role of either a driver or a passenger, enabling them to publish rides or search for and book desired rides. Smart contracts facilitate seamless execution of user requests, triggered by events such as ride creation or booking. The fare calculation is based on the passenger's route distance, current fuel price, and the driver's car mileage, resulting in significantly reduced costs. Upon booking a ride, the fare amount is debited from the passenger and credited to the driver only upon the passenger reaching their destination. The system's overarching objective is to simplify people's lives by minimizing travel expenses and traffic congestion, all while upholding user security.
 
+
+
 ### App Design:
 
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/270701cb-9069-4a8d-8746-2c92b0d83e63" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/fdd6abcd-0039-4633-bc60-fc68da398b39" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/33657852-659e-4a1b-9fe3-9a6111ed92ad" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/52ddbb01-f3b0-4676-9227-0b0336ec6510" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/6f83f277-37ce-490a-b0ee-81299d2a01d0" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/52195d85-d6d0-42a6-bb35-e791b8f074fa" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/fbeb4ed4-c7a5-49a8-a08f-8d7268987e13" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/0ab8d6a4-e76e-4fc4-bce6-23e8a6fb171d" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/4d2c3f7a-680a-4ef9-aea4-5d12dfd9e9e9" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/1bc6015f-a6b7-4bdd-a7b7-3e413db84a53" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/69acf980-b6e7-4bc7-a0fd-5b41cc1563de" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/c42f3360-c8f6-419c-a685-d1fc4a495b1e" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/981ad7f7-1211-45b5-b83a-3b1ac0ff759b" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/74fe264e-1832-41a3-a037-96332349bcde" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/6a5566ae-07ec-45fe-b555-e29e8481f5be" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/09bfa9d0-9d48-4a87-bab2-81a41a90e680" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/510e47f0-f8d4-4a70-b5da-af2d22a93ea3" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/7baf2a8f-0037-4c91-98c7-bb7546f0d3cd" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/6027d780-ddc5-430d-86dd-26f5396dec4d" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/466ee47a-3502-4bc0-ba75-58e7175856f6" width="250" height="500">
-<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/cedf9658-562b-4588-b623-42564ba2d5f6" width="250" height="500">
+
+<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/f24d443f-def1-4daa-8351-3445fac1dd6d" width="250" height="500">
+<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/e0e07cd8-7183-433b-8d82-c2c17577ebc0" width="250" height="500">
+<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/1a636b40-10f2-4989-a545-6f639619daba" width="250" height="500">
+
+<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/2f1a6e26-c695-4986-a662-a6f43d54a3d4" width="250" height="500">
+
+<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/cce43852-26d7-4c5f-9b47-b1bc53e8762e" width="250" height="500">
+<img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/67b9297a-1510-47e6-9d67-f715e009c17a" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/3fb1df0e-78a0-413d-a96c-b036372eaebe" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/0f45cab5-f7c5-4be7-b189-6b6404098a2c" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/59e78098-c4b1-42a2-acc4-34876f4f268a" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/7d088b48-7584-4b38-a2e6-0bf4e8c6c577" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/d814d9f8-868d-4592-97d8-a0558ff7d638" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/12da8ab3-d6d1-48d2-be81-6dd0313154e8" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/da62993f-cac6-45bc-a76a-8a855df304fe" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/50b465a4-18d5-4053-ad33-606a7298ddf2" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/4b7fe8bf-886f-4fc7-a4b9-2975c60b4f28" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/09d9f251-75d8-4231-a279-6009e36f851b" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/95541277-cee2-4474-8565-97ce3ff174fb" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/226fa957-28bc-4642-95e1-9836ce4b55bf" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/d71e9eb1-45e5-42b4-a48b-a3026e206528" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/ec95b34d-0da5-42a6-bbe7-9b9902bce0aa" width="250" height="500">
+
+
+<img src="https://github.com/pranstahub/Not-a-Taxi/assets/43924596/c00b396e-8869-4d46-a383-a36f76e7620a" width="250" height="500">
+
+### Design Flow:
+
+![flow](https://github.com/pranstahub/Not-a-Taxi/assets/43924596/1dfb4a43-d6f3-42f1-8a3d-7dfc46fbde60)
 
 
 Note: This app was created for our Final Year Project in Computer Science Engineering :D
