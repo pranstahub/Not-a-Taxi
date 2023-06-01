@@ -25,3 +25,5 @@ The design of the app is as follows:
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/6027d780-ddc5-430d-86dd-26f5396dec4d" width="250" height="500">
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/466ee47a-3502-4bc0-ba75-58e7175856f6" width="250" height="500">
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/cedf9658-562b-4588-b623-42564ba2d5f6" width="250" height="500">
+
+Note: This app was created for our Final Year Project in Computer Science Engineering :D
