@@ -2,10 +2,10 @@
 
 A Carpooling Application in Flutter that makes use of a Smart Contract to create and book Rides!
 
-###Abstract:
+### Abstract:
 Carpooling offers an effective solution to mitigate pollutant emissions and alleviate traffic congestion. This paper presents a novel system designed to address the shortcomings of centralized ride-sharing services by leveraging smart contracts. By ensuring data security, confidentiality, and privacy, the proposed system initiates the decentralization process for carpooling systems. Users can assume the role of either a driver or a passenger, enabling them to publish rides or search for and book desired rides. Smart contracts facilitate seamless execution of user requests, triggered by events such as ride creation or booking. The fare calculation is based on the passenger's route distance, current fuel price, and the driver's car mileage, resulting in significantly reduced costs. Upon booking a ride, the fare amount is debited from the passenger and credited to the driver only upon the passenger reaching their destination. The system's overarching objective is to simplify people's lives by minimizing travel expenses and traffic congestion, all while upholding user security.
 
-###The design of the app is as follows:
+### App Design:
 
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/270701cb-9069-4a8d-8746-2c92b0d83e63" width="250" height="500">
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/fdd6abcd-0039-4633-bc60-fc68da398b39" width="250" height="500">
