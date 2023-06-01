@@ -2,7 +2,10 @@
 
 A Carpooling Application in Flutter that makes use of a Smart Contract to create and book Rides!
 
-The design of the app is as follows:
+###Abstract:
+Carpooling offers an effective solution to mitigate pollutant emissions and alleviate traffic congestion. This paper presents a novel system designed to address the shortcomings of centralized ride-sharing services by leveraging smart contracts. By ensuring data security, confidentiality, and privacy, the proposed system initiates the decentralization process for carpooling systems. Users can assume the role of either a driver or a passenger, enabling them to publish rides or search for and book desired rides. Smart contracts facilitate seamless execution of user requests, triggered by events such as ride creation or booking. The fare calculation is based on the passenger's route distance, current fuel price, and the driver's car mileage, resulting in significantly reduced costs. Upon booking a ride, the fare amount is debited from the passenger and credited to the driver only upon the passenger reaching their destination. The system's overarching objective is to simplify people's lives by minimizing travel expenses and traffic congestion, all while upholding user security.
+
+###The design of the app is as follows:
 
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/270701cb-9069-4a8d-8746-2c92b0d83e63" width="250" height="500">
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/fdd6abcd-0039-4633-bc60-fc68da398b39" width="250" height="500">
@@ -25,5 +28,6 @@ The design of the app is as follows:
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/6027d780-ddc5-430d-86dd-26f5396dec4d" width="250" height="500">
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/466ee47a-3502-4bc0-ba75-58e7175856f6" width="250" height="500">
 <img src = "https://github.com/pranstahub/Not-a-Taxi/assets/43924596/cedf9658-562b-4588-b623-42564ba2d5f6" width="250" height="500">
+
 
 Note: This app was created for our Final Year Project in Computer Science Engineering :D
