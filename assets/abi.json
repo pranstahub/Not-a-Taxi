@@ -1,0 +1,422 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "passengerID",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "driverID",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "origin",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "dropOff",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "destination",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "date",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "departureTime",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "fare",
+				"type": "string"
+			}
+		],
+		"name": "RideBooked",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "origin",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "destination",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "date",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "departureTime",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "passengerLimit",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "carId",
+				"type": "string"
+			}
+		],
+		"name": "RideCreated",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_passengerID",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_driverID",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_origin",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_dropOff",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_destination",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_date",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_departureTime",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_fare",
+				"type": "string"
+			}
+		],
+		"name": "bookRide",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "booked",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "passengerID",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "driverID",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "origin",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "dropOff",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "destination",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "date",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "departureTime",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "fare",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_origin",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_destination",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_date",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_departureTime",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_passengerLimit",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_carId",
+				"type": "string"
+			}
+		],
+		"name": "createRide",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"name": "getBookedRide",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "passengerID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "driverID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "origin",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dropOff",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "destination",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "departureTime",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "fare",
+						"type": "string"
+					}
+				],
+				"internalType": "struct Carpooling.bookedRide",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getBookedRidesNum",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"name": "getRide",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "origin",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "destination",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "departureTime",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "passengerLimit",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "carId",
+						"type": "string"
+					}
+				],
+				"internalType": "struct Carpooling.Ride",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getRidesNum",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "rides",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "origin",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "destination",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "date",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "departureTime",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "passengerLimit",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "carId",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
